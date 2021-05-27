@@ -4,24 +4,24 @@ import maquina2 from '../components/assets/images/print3.jpg';
 
 const productList = [
     {
-        ID: 1,
+        id: 1,
         image: calavera,
         name: 'Calavera 3D',
         price: 500,
         stock: 4,
     }, 
     {
-        iID: 2,
+        id: 2,
         image: maquina,
-        name: 'maquina para imprimir',
-        price: 2000,
+        name: 'Impresora 3D',
+        price: 30000,
         stock: 2,
     },
     {
-        ID: 3,
+        id: 3,
         image: maquina2,
-        name: 'maquina para imprimir 2',
-        price: 4000,
+        name: 'Impresora 3D',
+        price: 40000,
         stock: 5,
     }
 ];

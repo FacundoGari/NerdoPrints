@@ -2,6 +2,7 @@ import React from 'react';
 import ItemCount from '../ItemCount';
 import './styles/Item.css';
 
+
 const Item = (props) => {
     return (
         <article className="product-container">
