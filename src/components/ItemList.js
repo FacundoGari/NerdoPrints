@@ -9,7 +9,7 @@ const ItemList = () => {
     const getProducts = new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(productList);
-        })
+        }, 2000)
     })
 
     const getProductsFromDataBase = async () => {
